@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="Actuate Example" package="com.joshuagranick.haxe.actuateexample" version="1.0.0" company="Joshua Granick" />
+	<app main="ActuateExample" path="Export" />
+	
+	<source path="Source" />
+	
+	<haxelib name="nme" />
+	<haxelib name="actuate" />
+	
+	<assets path="Assets" rename="assets" include="*" exclude="nme.svg" />
+	
+	<icon path="Assets/nme.svg" />
+	
+</project>
